@@ -1,6 +1,9 @@
 #include <iostream>
 #include <fstream>
+#include <sstream>
 #include <string>
+#include <vector>
+#include <utility>
 #include "math.h"
 #include <cub/cub.cuh>
 #include "flexarray.h"
@@ -12,6 +15,7 @@
 
 cudaStream_t myStream;
 cudaStream_t debugStream;
+using namespace std;
 
 #define cudaCheckError() cudaChkError(__LINE__, __FILE__)
 void inline cudaChkError(int line, const char* filename) {
@@ -22,17 +26,17 @@ template <unsigned int i>
 __global__ void debugMark() {
 }
 
-size_t description_outer(int *descript1, const size_t size1, const size_t d1, 
+size_t description_outer(int *descript1, const size_t size1, const size_t d1,
                          int *descript2, const size_t size2, const size_t d2,
                          int *descript_out);
-void two_list_freq_count(flexarray_bool *data1/* txi */, 
-                         flexarray_bool *data2/* txj */,  int *count/* ixj */, 
+void two_list_freq_count(flexarray_bool *data1/* txi */,
+                         flexarray_bool *data2/* txj */,  int *count/* ixj */,
                          flexarray_bool *outdata/* tx(i*j) */);
-int threshold_count(int *descriptions/* (i*j)xd */, const size_t i, const size_t j, const int d, int *count/* j*i */, 
-                    flexarray_bool *data/* tx(i*j) */, const size_t t, const int threshold); 
-int threshold_count_gpu(int *descriptions/* (i*j)xd */, const size_t i, const size_t j, const int d, int *count/* j*i */, 
-                        flexarray_bool *data/* tx(i*j) */, const size_t t, const int threshold); 
-
+int threshold_count(int *descriptions/* (i*j)xd */, const size_t i, const size_t j, const int d, int *count/* j*i */,
+                    flexarray_bool *data/* tx(i*j) */, const size_t t, const int threshold);
+int threshold_count_gpu(int *descriptions/* (i*j)xd */, const size_t i, const size_t j, const int d, int *count/* j*i */,
+                        flexarray_bool *data/* tx(i*j) */, const size_t t, const int threshold);
+vector<string> explode( const string &delimiter, const string &explodeme);
 
 int main(int argc, char** argv) {
 
@@ -46,6 +50,9 @@ int main(int argc, char** argv) {
    int *first_descriptions = NULL;
    int *freq=NULL, *new_freq;
    std::string** names;
+   //variaveis do jorge
+   vector<string> arr;
+
 
    if (argc < 2) {
       std::cout << "Usage: " << std::endl << "     lb_apriori <input file name>" << std::endl;
@@ -60,7 +67,7 @@ int main(int argc, char** argv) {
    std::ifstream fin(argv[1], std::ifstream::in);
    fin >>min_support>>n_items >> n_trans;
    std::cout << n_trans << " transactions with " << n_items << " items" << std::endl;
-   
+
 
    freqpattern = (int**)malloc(sizeof(int*)*(MAX_DEPTH+1));
    data = new flexarray_bool(n_trans, n_items, true);
@@ -85,7 +92,7 @@ int main(int argc, char** argv) {
       }
    }
    cudaMemcpy(data->data, h_data->data, sizeof(unsigned int)*h_data->real_c*h_data->r/32, cudaMemcpyHostToDevice);
-   
+
    int this_size=n_items;
    first_descriptions = (int*)malloc(sizeof(int)*n_items);
    this_descriptions = (int*)malloc(sizeof(int)); //allocate something for freeing
@@ -154,7 +161,7 @@ int main(int argc, char** argv) {
 #else
       this_size = threshold_count(next_descriptions, last_size, n_items, depth, freqpattern[depth], newdata, n_trans, min_support);
 #endif
-      
+
       cudaCheckError();
 #if defined(__DEBUG__)
 #if defined(__CUDA__)
@@ -202,7 +209,7 @@ int main(int argc, char** argv) {
    free(freqpattern[depth]);
 #endif
       last_size = this_size;
-      
+
       if (depth==1) {
          n_items = last_size;
          first_descriptions = next_descriptions;
@@ -229,7 +236,7 @@ int main(int argc, char** argv) {
    cudaStreamDestroy(myStream);
    cudaStreamDestroy(debugStream);
 }
-size_t description_outer(int *descript1, const size_t size1, const size_t d1, 
+size_t description_outer(int *descript1, const size_t size1, const size_t d1,
                          int *descript2, const size_t size2, const size_t d2,
                          int *descript_out) {
    for (int q=0; q < size1; q++) {
@@ -244,7 +251,7 @@ size_t description_outer(int *descript1, const size_t size1, const size_t d1,
    }
    return size1 * size2;
 }
-__global__ void two_list_freq_count_kernel(unsigned int *data1, size_t rows, size_t cols1, size_t size1, 
+__global__ void two_list_freq_count_kernel(unsigned int *data1, size_t rows, size_t cols1, size_t size1,
                                            unsigned int *data2, size_t cols2, size_t size2,
                                            int *count, unsigned int *outdata, size_t outsize) {
    size_t ii = threadIdx.x + blockDim.x * blockIdx.x;
@@ -275,10 +282,10 @@ __global__ void two_list_freq_count_kernel(unsigned int *data1, size_t rows, siz
                   }
                }
             }
-            atomicOr(&outdata[(tt*outsize + ii*cols2 + jj)/32], 
+            atomicOr(&outdata[(tt*outsize + ii*cols2 + jj)/32],
                         chout>>((tt*outsize + ii*cols2 + jj)%32));
          }
-         
+
       }
       for(size_t cnt=0;cnt<32;cnt++) {
          if (jj+cnt < cols2) {
@@ -286,18 +293,18 @@ __global__ void two_list_freq_count_kernel(unsigned int *data1, size_t rows, siz
          }
       }
    }
-   
+
 }
-void two_list_freq_count(flexarray_bool *data1/* txi */, 
-                         flexarray_bool *data2/* txj */, int *count/* ixj */, 
+void two_list_freq_count(flexarray_bool *data1/* txi */,
+                         flexarray_bool *data2/* txj */, int *count/* ixj */,
                          flexarray_bool *outdata/* tx(i*j) */) {
-#if defined(__CUDA__) 
+#if defined(__CUDA__)
    cudaMemset(outdata->data, 0, sizeof(unsigned int)*outdata->real_c*outdata->r/32);
    cudaCheckError();
-   two_list_freq_count_kernel<<<dim3((data1->c+31)/32,(data2->c+7)/8, (data1->r+99)/100), 
+   two_list_freq_count_kernel<<<dim3((data1->c+31)/32,(data2->c+7)/8, (data1->r+99)/100),
                                 dim3(32,8,1), 0, myStream>>>
-                                    (data1->data, data1->r, data1->c, data1->real_c, 
-                                     data2->data, data2->c, data2->real_c, count, 
+                                    (data1->data, data1->r, data1->c, data1->real_c,
+                                     data2->data, data2->c, data2->real_c, count,
                                      outdata->data, outdata->real_c);
    cudaCheckError();
 #else
@@ -340,7 +347,7 @@ __global__ void rearrange_data(unsigned int *outdata, const unsigned int *data, 
    int inidx;
    if (tt < rows && ii<cols) {
    for(int cnt = 0; ii+cnt < cols && cnt < 32; cnt++) {
-      inidx = order[ii+cnt];   
+      inidx = order[ii+cnt];
       iin = data[(tt*real_c + inidx)/32];
       if ((iin & (ONEBIT>>(inidx%32))) != 0) {
          iout |= mask;
@@ -363,7 +370,7 @@ __global__ void find_size(int *result, int *count, size_t max, int threshold) {
    }
 }
 
-int threshold_count_gpu(int *descriptions/* (i*j)xd */, const size_t i, const size_t j, const int d, int *count/* j*i */, 
+int threshold_count_gpu(int *descriptions/* (i*j)xd */, const size_t i, const size_t j, const int d, int *count/* j*i */,
                      flexarray_bool *data/* tx(i*j) */, const size_t t, const int threshold) {
 
    int *range;
@@ -384,10 +391,10 @@ int threshold_count_gpu(int *descriptions/* (i*j)xd */, const size_t i, const si
    cub::DoubleBuffer<int> d_range(range, range_buf);
    void *d_temp_storage = NULL;
    size_t temp_storage_bytes = 0;
-   cub::DeviceRadixSort::SortPairs(d_temp_storage, temp_storage_bytes, d_count, 
+   cub::DeviceRadixSort::SortPairs(d_temp_storage, temp_storage_bytes, d_count,
                                    d_range, i*j);
    cudaMalloc(&d_temp_storage, temp_storage_bytes);
-   cub::DeviceRadixSort::SortPairs(d_temp_storage, temp_storage_bytes, d_count, 
+   cub::DeviceRadixSort::SortPairs(d_temp_storage, temp_storage_bytes, d_count,
                                    d_range, i*j);
    int new_size = i*j;
    //count_buf is just a place to put the result
@@ -399,7 +406,7 @@ int threshold_count_gpu(int *descriptions/* (i*j)xd */, const size_t i, const si
    }
    cub::DoubleBuffer<int> d_range_new(range+(i*j-new_size), range_buf);
    cub::DoubleBuffer<int> d_count_new(count+(i*j-new_size), count_buf);
-   cub::DeviceRadixSort::SortPairs(d_temp_storage, temp_storage_bytes, 
+   cub::DeviceRadixSort::SortPairs(d_temp_storage, temp_storage_bytes,
                                    d_range_new, d_count_new, new_size);
    cudaFree(d_temp_storage);
    cudaFree(range_buf);
@@ -426,7 +433,7 @@ int threshold_count_gpu(int *descriptions/* (i*j)xd */, const size_t i, const si
    }
    free(h_range);
    delete(indata);
-   
+
    cudaFree(range);
    if (d >1) {
       cudaFree(d_descriptions);
@@ -436,9 +443,9 @@ int threshold_count_gpu(int *descriptions/* (i*j)xd */, const size_t i, const si
    return new_size;
 }
 #endif
-int threshold_count(int *descriptions/* (i*j)xd */, const size_t i, const size_t j, const int d, int *count/* j*i */, 
+int threshold_count(int *descriptions/* (i*j)xd */, const size_t i, const size_t j, const int d, int *count/* j*i */,
                      flexarray_bool *data/* tx(i*j) */, const size_t t, const int threshold) {
-  
+
    int *h_count;
 #if defined(__CUDA__)
    cudaCheckError();
@@ -473,4 +480,36 @@ int threshold_count(int *descriptions/* (i*j)xd */, const size_t i, const size_t
    free(h_count);
 #endif
    return inx;
-}  
+}
+
+//parte do jorge
+vector<string> explode( const string &delimiter, const string &str)
+{
+    vector<string> arr;
+
+    int strleng = str.length();
+    int delleng = delimiter.length();
+    if (delleng==0)
+        return arr;//no change
+
+    int i=0;
+    int k=0;
+    while( i<strleng )
+    {
+        int j=0;
+        while (i+j<strleng && j<delleng && str[i+j]==delimiter[j])
+            j++;
+        if (j==delleng)//found delimiter
+        {
+            arr.push_back(  str.substr(k, i-k) );
+            i+=delleng;
+            k=i;
+        }
+        else
+        {
+            i++;
+        }
+    }
+    arr.push_back(  str.substr(k, i-k) );
+    return arr;
+}

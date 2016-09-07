@@ -1,4 +1,4 @@
-CUB_HOME ?= /home/jorge/TCC/CUB
+CUB_HOME ?= /home/jorge/TCC/aprioriGitHub/cub/
 CUDA = 1
 
 NVCC_FLAGS =-arch=sm_35

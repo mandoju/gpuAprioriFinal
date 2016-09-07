@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3369a957-b755-4585-953a-f91f696cda53" name="Default" comment="" />
+    <ignored path="aprioriGitHub.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="aprioriGitHub" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aprioriGitHub" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aprioriGitHub" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aprioriGitHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/.cproject</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/.project</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/.settings/org.eclipse.cdt.codan.core.prefs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/.settings/org.eclipse.cdt.core.prefs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/.settings/org.eclipse.cdt.ui.prefs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/.settings/org.eclipse.core.runtime.prefs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/CHANGE_LOG.TXT</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/LICENSE.TXT</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/common.mk</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_histogram.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_radix_sort_downsweep.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_radix_sort_upsweep.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_reduce.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_reduce_by_key.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_rle.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_scan.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_segment_fixup.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_select_if.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_spmv_csrt.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_spmv_orig.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/agent_spmv_row_based.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/agent/single_pass_scan_operators.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_discontinuity.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_exchange.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_histogram.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_load.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_radix_rank.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_radix_sort.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_raking_layout.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_reduce.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_reduce_by_key.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_scan.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_shuffle.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/block_store.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/specializations/block_histogram_atomic.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/specializations/block_histogram_sort.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/specializations/block_reduce_raking.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/specializations/block_reduce_raking_commutative_only.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/specializations/block_reduce_warp_reductions.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/specializations/block_scan_raking.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/block/specializations/block_scan_warp_scans.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/cub.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/device_histogram.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/device_partition.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/device_radix_sort.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/device_reduce.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/device_run_length_encode.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/device_scan.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/device_segmented_radix_sort.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/device_segmented_reduce.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/device_select.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/device_spmv.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/dispatch/dispatch_histogram.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/dispatch/dispatch_radix_sort.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/dispatch/dispatch_reduce.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/dispatch/dispatch_reduce_by_key.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/dispatch/dispatch_rle.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/dispatch/dispatch_scan.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/dispatch/dispatch_select_if.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/dispatch/dispatch_spmv_csrt.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/dispatch/dispatch_spmv_orig.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/device/dispatch/dispatch_spmv_row_based.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/grid/grid_barrier.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/grid/grid_even_share.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/grid/grid_mapping.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/grid/grid_queue.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/host/mutex.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/iterator/arg_index_input_iterator.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/iterator/cache_modified_input_iterator.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/iterator/cache_modified_output_iterator.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/iterator/constant_input_iterator.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/iterator/counting_input_iterator.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/iterator/tex_obj_input_iterator.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/iterator/tex_ref_input_iterator.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/iterator/transform_input_iterator.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/thread/thread_load.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/thread/thread_operators.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/thread/thread_reduce.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/thread/thread_scan.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/thread/thread_search.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/thread/thread_store.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/util_allocator.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/util_arch.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/util_debug.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/util_device.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/util_macro.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/util_namespace.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/util_ptx.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/util_type.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/warp/specializations/warp_reduce_shfl.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/warp/specializations/warp_reduce_smem.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/warp/specializations/warp_scan_shfl.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/warp/specializations/warp_scan_smem.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/warp/warp_reduce.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/cub/warp/warp_scan.cuh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/.nojekyll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/Doxyfile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/DoxygenLayout.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/device_perf.xls</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/download_cub.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/doxygen.exe</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/extra_stylesheet.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/footer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/header.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/.nojekyll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/CHANGE_LOG.TXT</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/annotated.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/arg__index__input__iterator_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/arg__index__input__iterator_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/bc_s.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/bdwn.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__discontinuity_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__discontinuity_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__exchange_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__exchange_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__histogram_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__histogram_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__load_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__load_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__radix__sort_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__radix__sort_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__reduce_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__reduce_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__scan_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__scan_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__store_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block__store_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block_load_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block_reduce.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block_scan_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block_scan_raking.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block_scan_warpscans.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/block_store_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/blocked.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/cache__modified__input__iterator_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/cache__modified__input__iterator_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/cache__modified__output__iterator_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/cache__modified__output__iterator_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_arg_index_input_iterator-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_arg_index_input_iterator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_discontinuity-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_discontinuity.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_exchange-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_exchange.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_histogram-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_histogram.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_load-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_load.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_radix_sort-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_radix_sort.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_reduce-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_reduce.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_scan-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_scan.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_store-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_block_store.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_cache_modified_input_iterator-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_cache_modified_input_iterator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_cache_modified_output_iterator-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_cache_modified_output_iterator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_constant_input_iterator-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_constant_input_iterator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_counting_input_iterator-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_counting_input_iterator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_swizzle_scan_op-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_swizzle_scan_op.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_tex_obj_input_iterator-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_tex_obj_input_iterator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_tex_ref_input_iterator-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_tex_ref_input_iterator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_transform_input_iterator-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_transform_input_iterator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_warp_reduce-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_warp_reduce.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_warp_scan-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classcub_1_1_warp_scan.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/classes.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/closed.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/constant__input__iterator_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/constant__input__iterator_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/counting__input__iterator_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/counting__input__iterator_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/cub_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/cub_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/cub_overview.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/devfun_abstraction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__histogram_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__histogram_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__partition_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__partition_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__radix__sort_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__radix__sort_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__reduce_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__reduce_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__run__length__encode_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__run__length__encode_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__scan_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__scan_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__segmented__radix__sort_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__segmented__radix__sort_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__segmented__reduce_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__segmented__reduce_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__select_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__select_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__spmv_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device__spmv_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/device_scan.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/dir_011e1c944d88f71be72e1e24a5fda7cf.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/dir_18fc672d63781b5a743137aee24ff656.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/dir_80932b4cec52750ff92b1a1912314cf5.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/dir_bb50a5ef59f19d030d06415663184d05.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/dir_cb3a671affffe7eeb3fdf5ae58e42cc8.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/dir_d583f216f1aafe19404e836b0c097ad2.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/discont_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/download-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/download_cub.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/doxygen.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/doxygen.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/dynsections.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_block_radix_sort_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_block_reduce_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_block_scan_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_device_histogram_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_device_partition_flagged_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_device_partition_if_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_device_radix_sort_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_device_reduce_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_device_scan_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_device_select_flagged_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_device_select_if_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/example_device_select_unique_8cu-example.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/examples.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/extra_stylesheet.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/favicon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/favicon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/files.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2blank.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2cl.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2doc.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2folderclosed.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2folderopen.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2lastnode.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2link.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2mlastnode.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2mnode.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2mo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2node.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2ns.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2plastnode.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2pnode.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2splitbar.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/ftv2vertline.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x62.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x63.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x64.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x65.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x66.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x68.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x69.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x6c.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x6d.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x6e.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x6f.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x70.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x72.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x73.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x74.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x75.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x76.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x77.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_0x7e.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x62.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x63.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x64.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x65.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x66.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x68.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x69.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x6c.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x6d.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x6e.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x6f.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x72.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x73.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x74.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x75.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x77.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_func_0x7e.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_rela.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_type.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/functions_vars.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/generic_abstraction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/github-icon-747d8b799a48162434b2c0595ba1317e.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/globals.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/globals_defs.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___block_module.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___collective_module.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___device_module.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___segmented_module.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___single_module.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___util_io.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___util_iterator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___util_mgmt.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___util_module.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___util_ptx.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/group___warp_module.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/groups-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/hierarchy.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/histogram_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/kernel_abstraction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/lsb_radix_sort_int32_keys.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/lsb_radix_sort_int32_pairs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/lsb_radix_sort_int64_keys.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/lsb_radix_sort_int64_pairs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/modules.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/namespacecub.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/namespacemembers.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/namespacemembers_enum.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/namespacemembers_eval.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/namespacemembers_func.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/namespaces.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/nav_f.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/nav_g.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/nav_h.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/nested_composition.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/nvresearch.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/open.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/partition_flags_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/partition_if_int32_50_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/partition_if_int32_5_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/partition_if_int64_50_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/partition_if_int64_5_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/partition_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/reduce_by_key_fp32_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/reduce_by_key_fp32_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/reduce_by_key_fp64_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/reduce_by_key_fp64_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/reduce_int32.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/reduce_int64.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/reduce_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/rle_int32_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/rle_int32_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/rle_int64_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/rle_int64_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/run_length_encode_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/scan_int32.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/scan_int64.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_5f.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_5f.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_61.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_61.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_62.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_62.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_63.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_63.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_64.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_64.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_65.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_65.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_66.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_66.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_68.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_68.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_69.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_69.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_6c.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_6c.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_6d.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_6d.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_6e.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_6e.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_6f.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_6f.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_70.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_70.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_72.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_72.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_73.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_73.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_74.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_74.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_75.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_75.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_76.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_76.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_77.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_77.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_7e.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/all_7e.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_61.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_61.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_62.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_62.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_63.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_63.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_64.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_64.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_65.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_65.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_69.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_69.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_6c.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_6c.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_6d.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_6d.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_70.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_70.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_72.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_72.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_73.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_73.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_74.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_74.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_77.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/classes_77.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/close.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/enums_62.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/enums_62.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/enums_63.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/enums_63.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/enumvalues_62.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/enumvalues_62.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/enumvalues_6c.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/enumvalues_6c.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/enumvalues_73.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/enumvalues_73.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_61.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_61.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_62.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_62.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_63.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_63.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_64.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_64.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_74.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_74.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_75.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_75.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_77.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/files_77.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_61.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_61.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_62.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_62.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_63.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_63.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_64.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_64.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_65.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_65.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_66.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_66.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_68.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_68.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_69.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_69.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_6c.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_6c.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_6d.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_6d.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_6e.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_6e.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_6f.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_6f.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_70.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_70.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_72.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_72.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_73.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_73.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_74.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_74.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_75.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_75.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_77.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_77.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_7e.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/functions_7e.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_62.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_62.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_64.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_64.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_66.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_66.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_70.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_70.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_73.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_73.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_74.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_74.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_75.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_75.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_77.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/groups_77.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/mag_sel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/namespaces_63.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/namespaces_63.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/nomatches.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/related_6f.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/related_6f.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/search.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/search.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/search_l.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/search_m.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/search_r.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_64.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_64.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_69.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_69.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_70.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_70.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_72.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_72.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_73.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_73.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_74.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_74.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_76.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/typedefs_76.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/variables_69.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/variables_69.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/variables_6f.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/variables_6f.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/variables_70.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/search/variables_70.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/segmented_sorting_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/select_flags_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/select_if_int32_50_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/select_if_int32_5_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/select_if_int64_50_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/select_if_int64_5_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/select_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/select_unique_int32_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/select_unique_int32_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/select_unique_int64_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/select_unique_int64_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/shfl_broadcast_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/shfl_down_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/shfl_up_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/simt_abstraction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/sorting_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/striped.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_arg_max-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_arg_max.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_arg_min-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_arg_min.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_discontinuity_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_discontinuity_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_exchange_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_exchange_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_histogram_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_histogram_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_load_1_1_load_internal_3_01_b_l_o_c_k___l_o_a_d___t_r_a_n_s_p_o_s_e_00_01_d_u_m_m_y_01_4_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_load_1_1_load_internal_3_01_b_l_o_c_k___l_o_a_d___t_r_a_n_s_p_o_s_e_00_01_d_u_m_m_y_01_4_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_load_1_1_load_internal_3_01_b_l_o_c_k___l_o_a_d___w_a_r_p___t_r_a_n_s_p_o_s_402c3164d23f1ec647db5dad06a54584.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_load_1_1_load_internal_3_01_b_l_o_c_k___l_o_a_d___w_a_r_p___t_r_a_n_s_p_o_s_402c3164d23f1ec647db5dad06a54584.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_load_1_1_load_internal_3_01_b_l_o_c_k___l_o_a_d___w_a_r_p___t_r_a_n_s_p_o_s_e4c36dfe8f549604998f6c46cc8fbd1d.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_load_1_1_load_internal_3_01_b_l_o_c_k___l_o_a_d___w_a_r_p___t_r_a_n_s_p_o_s_e4c36dfe8f549604998f6c46cc8fbd1d.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_load_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_load_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_radix_sort_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_radix_sort_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_reduce_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_reduce_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_scan_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_scan_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_store_1_1_store_internal_3_01_b_l_o_c_k___s_t_o_r_e___t_r_a_n_s_p_o_s_e_00_09dfae03f13932c7dbdb41be30a5767ba.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_store_1_1_store_internal_3_01_b_l_o_c_k___s_t_o_r_e___t_r_a_n_s_p_o_s_e_00_09dfae03f13932c7dbdb41be30a5767ba.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_store_1_1_store_internal_3_01_b_l_o_c_k___s_t_o_r_e___w_a_r_p___t_r_a_n_s_p_263becc1ca5b47586740c2f7bb0d0145.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_store_1_1_store_internal_3_01_b_l_o_c_k___s_t_o_r_e___w_a_r_p___t_r_a_n_s_p_263becc1ca5b47586740c2f7bb0d0145.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_store_1_1_store_internal_3_01_b_l_o_c_k___s_t_o_r_e___w_a_r_p___t_r_a_n_s_p_8d170856b7ed1df0ed565731a681b449.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_store_1_1_store_internal_3_01_b_l_o_c_k___s_t_o_r_e___w_a_r_p___t_r_a_n_s_p_8d170856b7ed1df0ed565731a681b449.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_store_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_block_store_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_caching_device_allocator-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_caching_device_allocator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_cast-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_cast.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_histogram-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_histogram.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_partition-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_partition.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_radix_sort-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_radix_sort.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_reduce-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_reduce.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_run_length_encode-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_run_length_encode.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_scan-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_scan.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_segmented_radix_sort-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_segmented_radix_sort.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_segmented_reduce-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_segmented_reduce.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_select-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_select.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_spmv-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_device_spmv.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_equality-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_equality.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_equals-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_equals.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_if-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_if.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_inequality-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_inequality.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_inequality_wrapper-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_inequality_wrapper.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_is_pointer-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_is_pointer.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_is_volatile-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_is_volatile.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_log2-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_log2.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_max-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_max.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_min-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_min.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_power_of_two-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_power_of_two.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_reduce_by_key_op-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_reduce_by_key_op.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_reduce_by_segment_op-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_reduce_by_segment_op.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_remove_qualifiers-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_remove_qualifiers.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_sum-members.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_sum.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_warp_reduce_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_warp_reduce_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_warp_scan_1_1_temp_storage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/structcub_1_1_warp_scan_1_1_temp_storage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/sync_off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/sync_on.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tab_a.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tab_b.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tab_b_alt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tab_h.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tab_s.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tabs.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tex__obj__input__iterator_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tex__obj__input__iterator_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tex__ref__input__iterator_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tex__ref__input__iterator_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/thread__load_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/thread__load_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/thread__operators_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/thread__operators_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/thread__store_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/thread__store_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/tile.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/transform__input__iterator_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/transform__input__iterator_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/transpose_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/unique_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__allocator_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__arch_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__arch_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__debug_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__debug_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__device_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__device_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__ptx_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__ptx_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__type_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/util__type_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/warp__reduce_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/warp__reduce_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/warp__scan_8cuh.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/warp__scan_8cuh_source.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/warp_reduce_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/html/warp_scan_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/block_load_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/block_reduce.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/block_scan_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/block_scan_raking.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/block_scan_warpscans.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/block_store_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/blocked.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/cnp_abstraction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/cub.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/cub_overview.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/devfun_abstraction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/device_scan.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/discont_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/download-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/favicon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/favicon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/generic_abstraction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/github-icon-747d8b799a48162434b2c0595ba1317e.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/groups-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/histo_perf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/histogram_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/kernel_abstraction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/kogge_stone_reduction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/kogge_stone_scan.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/lsd_sort_perf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/nested_composition.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/nvresearch.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/partition_flags_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/partition_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/lsb_radix_sort_int32_keys.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/lsb_radix_sort_int32_pairs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/lsb_radix_sort_int64_keys.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/lsb_radix_sort_int64_pairs.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/partition_if_int32_50_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/partition_if_int32_5_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/partition_if_int64_50_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/partition_if_int64_5_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/reduce_by_key_fp32_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/reduce_by_key_fp32_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/reduce_by_key_fp64_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/reduce_by_key_fp64_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/reduce_int32.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/reduce_int64.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/rle_int32_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/rle_int32_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/rle_int64_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/rle_int64_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/scan_int32.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/scan_int64.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/select_if_int32_50_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/select_if_int32_5_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/select_if_int64_50_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/select_if_int64_5_percent.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/select_unique_int32_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/select_unique_int32_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/select_unique_int64_len_5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/performance/select_unique_int64_len_500.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/raking.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/reduce_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/reduction_perf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/run_length_encode_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/scan_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/scan_perf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/segmented_sorting_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/select_flags_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/select_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/shfl_broadcast_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/shfl_down_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/shfl_up_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/simt_abstraction.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/sorting_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/striped.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/tab_b_alt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/thread_data_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/tile.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/transpose_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/unique_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/warp_reduce_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/images/warp_scan_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/mainpage.dox</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/docs/references.bib</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/eclipse code style profile.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/Makefile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/cuda55.sln</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/cuda60.sln</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/example_block_radix_sort.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/example_block_reduce.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/example_block_scan.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/experimental/example_block_tridiagonal_solve.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/vcxproj/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/vcxproj/CUDA55_example_block_radix_sort.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/vcxproj/CUDA55_example_block_reduce.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/vcxproj/CUDA55_example_block_scan.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/vcxproj/CUDA60_example_block_radix_sort.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/vcxproj/CUDA60_example_block_reduce.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/block/vcxproj/CUDA60_example_block_scan.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/Makefile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/cuda60.sln</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/example_device_histogram.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/example_device_partition_flagged.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/example_device_partition_if.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/example_device_radix_sort.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/example_device_reduce.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/example_device_scan.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/example_device_select_flagged.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/example_device_select_if.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/example_device_select_unique.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/example_device_sort_find_non_trivial_runs.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vc90.pdb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vcxproj/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vcxproj/CUDA60_example_device_histogram.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vcxproj/CUDA60_example_device_partition_flagged.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vcxproj/CUDA60_example_device_partition_if.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vcxproj/CUDA60_example_device_radix_sort.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vcxproj/CUDA60_example_device_reduce.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vcxproj/CUDA60_example_device_scan.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vcxproj/CUDA60_example_device_select_flagged.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vcxproj/CUDA60_example_device_select_if.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/examples/device/vcxproj/CUDA60_example_device_select_unique.vcxproj</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/Makefile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/defunct/example_coo_spmv.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/defunct/test_device_seg_reduce.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/histogram/histogram_cub.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/histogram/histogram_gmem_atomics.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/histogram/histogram_smem_atomics.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/histogram_compare.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/sparse_matrix.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/spmv_compare.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/experimental/spmv_script.sh</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/Makefile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/link_a.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/link_b.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/link_main.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/mersenne.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_allocator.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_block_histogram.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_block_load_store.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_block_radix_sort.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_block_reduce.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_block_scan.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_device_histogram.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_device_radix_sort.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_device_reduce.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_device_reduce_by_key.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_device_run_length_encode.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_device_scan.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_device_select_if.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_device_select_unique.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_grid_barrier.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_iterator.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_util.h</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_warp_reduce.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/test/test_warp_scan.cu</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/tune/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/tune/Makefile</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/cub/tune/tune_device_reduce.cu</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3369a957-b755-4585-953a-f91f696cda53" name="Default" comment="" />
+      <created>1466048238899</created>
+      <option name="number" value="Default" />
+      <updated>1466048238899</updated>
+    </task>
+    <task id="LOCAL-00001" summary="primeiro commit">
+      <created>1466048303212</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1466048303212</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18867925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31059062" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primeiro commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="primeiro commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
