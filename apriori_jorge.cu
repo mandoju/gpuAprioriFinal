@@ -47,7 +47,7 @@ int main(int argc, char** argv) {
 
    int n_items;
    int n_trans;
-   int min_support = 3;
+   int min_support = 1;
    flexarray_bool *data, *newdata, *first_data, *h_data;
    int **freqpattern;
    int *this_descriptions = NULL;
@@ -80,7 +80,7 @@ int main(int argc, char** argv) {
 #else
    std::cout << "Processing on CPU" << std::endl;
 #endif
-   //std::cout << "Reading input data..." << std::endl;
+   std::cout << "Reading input data..." << std::endl;
    /*std::ifstream fin(argv[1], std::ifstream::in);
    fin >>min_support>>n_items >> n_trans;
    std::cout << n_trans << " transactions with " << n_items << " items" << std::endl;
@@ -109,12 +109,9 @@ int main(int argc, char** argv) {
    cout << "O numero de colunas é " << numero_de_colunas << std::endl;
    cout << "O delimitador é " << delimitador << std:: endl;
 
-   getline(fin,str); //retira resto
    while(getline(fin,str))
    {
      str_vector = explode(",",str);
-     if(numero_de_linhas == 0) cout << "a string é : " << str << "e o tamanho é " << str_vector.size() <<  endl ;
-
 
      for(i = 0 ; i < str_vector.size();i++)
      {
@@ -135,17 +132,10 @@ int main(int argc, char** argv) {
    names = (std::string**)malloc(sizeof(std::string*)*n_items);
 
    //cout << "agora construindo a matrix" << endl;
-  // std::ifstream fin(argv[1], std::ifstream::in);
    fin.clear();
-   fin.close();
-   fin.open(argv[1]);
    fin.seekg(0, ios::beg);
    fin >> numero_de_colunas >> delimitador;
-  // getline(fin,str);
 
-   cout << "o que peguei foi " << str << endl;
-   cout << "o numero_de_colunas é " << numero_de_colunas << endl;
-   cout << "o delimitador 2 é : " << delimitador << endl;
    //bool matrix[numero_de_linhas][numero_de_items];
 
    int** matrix = new int*[numero_de_linhas];
@@ -153,7 +143,6 @@ int main(int argc, char** argv) {
 
    i = 0;
    cout << "fazendo a matrix " << endl;
-   getline(fin,str); //retira o resto
    while(getline(fin,str))
    {
 
@@ -170,14 +159,17 @@ int main(int argc, char** argv) {
              names[resultado_do_find_int] = new string(str_vector[k]);
              matrix[i][j] = true;
            }
-           else if(matrix[i][j] != true) matrix[i][j] = false;
+           else matrix[i][j] = false;
          }
        }
        i++;
    }
    std::cout << "Found items named "<<std::endl;
+   for (int i=0;i<n_items;i++) {
 
-    cout << endl;
+    //  std::cout<< i << " "  << *names[i]<<std::endl;
+   }
+
 
    //  Set input data
    for (int q=0; q<n_trans;q++) {
@@ -193,9 +185,6 @@ int main(int argc, char** argv) {
          //else (*data)(q,p) = false;
       }
    }
-
-  //display_flexarray(h_data);
-
    cudaMemcpy(data->data, h_data->data, sizeof(unsigned int)*h_data->real_c*h_data->r/32, cudaMemcpyHostToDevice);
 
    int this_size=n_items;

@@ -7,17 +7,27 @@
 #include "math.h"
 #include "b_plus_tree.cpp"
 
+#define SSTR( x ) static_cast< std::ostringstream & >( \
+        ( std::ostringstream() << std::dec << x ) ).str()
+
 using namespace std;
 vector<string> explode( const string &delimiter, const string &explodeme);
 
 
 int main(int argc, char** argv) {
 
-  int numero_de_colunas;
+  int numero_de_colunas = 0;
+  int numero_de_items = 0;
+  int numero_de_linhas = 0;
+  int resultado_do_find_int = 0;
+  int i;
+  int j;
+  int k;
   char delimitador;
   string str;
+  string resultado_do_find;
   vector<string> str_vector;
-  BPlusTree<string,string,3,3,3,3,3> b_plus_tree;
+  BPlusTree<string,string,3,3> b_plus_tree;
 
   if (argc < 2) {
      std::cout << "Usage: " << std::endl << "     lb_apriori <input file name>" << std::endl;
@@ -33,15 +43,53 @@ int main(int argc, char** argv) {
   while(getline(fin,str))
   {
     str_vector = explode(",",str);
-    if(! (b_plus_tree.find(str_vector[0],str_vector[0]) ) )
-    {
-      b_plus_tree.insert(&str_vector[0],str_vector[0]);
-    }
 
-    cout << str_vector[0] << endl;
+    for(i = 0 ; i < str_vector.size();i++)
+    {
+      if(! (b_plus_tree.find(str_vector[i]) ) )
+      {
+          cout << str_vector[i] << endl;
+          cout << numero_de_items << endl;
+          b_plus_tree.insert(str_vector[i],SSTR(numero_de_linhas));
+          numero_de_items++;
+      }
+    }
+    numero_de_linhas++;
+
   }
 
+  cout << "agora construindo a matrix" << endl;
+  fin.clear();
+  fin.seekg(0, ios::beg);
+  fin >> numero_de_colunas >> delimitador;
 
+  //bool matrix[numero_de_linhas][numero_de_items];
+
+  int** matrix = new int*[numero_de_linhas];
+  for(int i = 0; i < numero_de_linhas; ++i) matrix[i] = new int[numero_de_items];
+
+  i = 0;
+  while(getline(fin,str))
+  {
+
+      str_vector = explode(",",str);
+      for(k = 0;k < str_vector.size();k++)
+      {
+        b_plus_tree.find(str_vector[k],&resultado_do_find);
+        resultado_do_find_int = atoi(resultado_do_find.c_str());
+        //cout << "K = " << k  << " " << str_vector[k] << " " << resultado_do_find_int << endl;
+        for(j = 0; j < numero_de_items;j++)
+        {
+
+          if(j == resultado_do_find_int) {
+            if(i == 0) cout << j << " entrado" << endl;
+            matrix[i][j] = true;
+          }
+          else matrix[i][j] = false;
+        }
+      }
+      i++;
+  }
 
 }
 

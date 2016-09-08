@@ -20,11 +20,10 @@ CCFLAGS = -Xcompiler -fopenmp
 INCLUDES = -I$(CUB_HOME)
 
 apriori: apriori.o
-	nvcc $(NVCC_FLAGS) $(CCFLAGS) -o apriori apriori.o
+	nvcc $(NVCC_FLAGS) $(CCFLAGS) -o apriori apriori.o -lboost_system
 
 %.o: %.cu
 	nvcc -c $(NVCC_FLAGS) $(CCFLAGS) $(INCLUDES) -o $@ $<
 
 clean:
 	rm *.o apriori
-
