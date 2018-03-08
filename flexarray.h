@@ -20,13 +20,13 @@ class flexarray_bool {
       if (gpu)
          //Make sure to be divisible by 32-bits
          cudaMalloc(&data, sizeof(unsigned int)*rows*real_c/32);
-      else 
+      else
          data = (unsigned int*)malloc(sizeof(unsigned int)*rows*real_c/32);
    }
    bool& operator()(const size_t row, const size_t col) {
       if (device) {
          cudaMemcpy(&tmp, &data[(col + row*real_c)/32], sizeof(unsigned int), cudaMemcpyDeviceToHost);
-      } else { 
+      } else {
          tmp = data[(col + row*real_c)/32];
       }
       unsigned int foo = tmp & (unsigned int)(ONEBIT>>(col%32));
@@ -55,7 +55,7 @@ class flexarray_bool {
    }
 };
 void display_flexarray(flexarray_bool* data) {
- 
+
    for (int q=0;q<data->r;q++) {
       for (int p=0;p<data->c;p++) {
          std::cout << (*data)(q,p) << "  ";
@@ -64,3 +64,13 @@ void display_flexarray(flexarray_bool* data) {
    }
 }
 
+void sizeof_flexarray(flexarray_bool* data) {
+
+   int tamanho_total = 0;
+   for (int q=0;q<data->r;q++) {
+      for (int p=0;p<data->c;p++) {
+         tamanho_total += sizeof((*data)(q,p));
+      }
+   }
+   std::cout << "O tamanho total do flex array é :" << tamanho_total ;
+}

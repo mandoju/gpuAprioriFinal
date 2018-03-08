@@ -12,7 +12,7 @@
 //#define __CUDA__ 1
 //#define __DEBUG__ 1
 
-#define MAX_DEPTH 8
+#define MAX_DEPTH 4
 
 #define SSTR( x ) static_cast< std::ostringstream & >( \
         ( std::ostringstream() << std::dec << x ) ).str()

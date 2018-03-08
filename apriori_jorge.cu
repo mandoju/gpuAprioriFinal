@@ -4,15 +4,17 @@
 #include <string>
 #include <vector>
 #include <utility>
+#include <boost/lexical_cast.hpp>
 #include "math.h"
-#include <cub/cub.cuh>
+#include "cub/cub.cuh"
 #include "flexarray.h"
 #include "b_plus_tree.cpp"
+#include <time.h>
 
-//#define __CUDA__ 1
-//#define __DEBUG__ 1
+#define __CUDA__ 1
+//#define __DEBUG__ 1A
 
-#define MAX_DEPTH 8
+#define MAX_DEPTH 3
 
 #define SSTR( x ) static_cast< std::ostringstream & >( \
         ( std::ostringstream() << std::dec << x ) ).str()
@@ -47,7 +49,7 @@ int main(int argc, char** argv) {
 
    int n_items;
    int n_trans;
-   int min_support = 1;
+   int min_support = 6756;
    flexarray_bool *data, *newdata, *first_data, *h_data;
    int **freqpattern;
    int *this_descriptions = NULL;
@@ -65,11 +67,16 @@ int main(int argc, char** argv) {
    int j;
    int k;
    char delimitador;
+   stringstream ss;
    string str;
    string tmp;
-   string resultado_do_find;
+   string num_result_temp;
+   char num_result_temp_char[100];
+   string  resultado_do_find;
    vector<string> str_vector;
    BPlusTree<string,string,3,3> b_plus_tree;
+
+   clock_t tStart = clock();
 
    if (argc < 2) {
       std::cout << "Usage: " << std::endl << "     lb_apriori <input file name>" << std::endl;
@@ -108,6 +115,7 @@ int main(int argc, char** argv) {
 
    cout << "O numero de colunas é " << numero_de_colunas << std::endl;
    cout << "O delimitador é " << delimitador << std:: endl;
+   getline(fin,str);
 
    while(getline(fin,str))
    {
@@ -115,15 +123,36 @@ int main(int argc, char** argv) {
 
      for(i = 0 ; i < str_vector.size();i++)
      {
-       if(! (b_plus_tree.find(str_vector[i]) ) )
+       /*ss << i;
+       num_result_temp = ss.str();
+       ss.str( std::string() );
+       ss.clear();
+       num_result_temp = num_result_temp + "_" + str_vector[i];*/
+
+       sprintf(num_result_temp_char,"%d",i);
+       num_result_temp = num_result_temp_char;
+       num_result_temp += "_";
+       num_result_temp += str_vector[i];
+
+       //if(! (b_plus_tree.find(str_vector[i]) ) )
+        if(! (b_plus_tree.find(num_result_temp,&resultado_do_find) ) )
        {
-           b_plus_tree.insert(str_vector[i],SSTR(numero_de_items));
+
+           //cout<<num_result_temp;
+           //cout << str_vector[i];
+           //b_plus_tree.insert( str_vector[i] ,SSTR(numero_de_items));
+           //cout << "inserindo na arvore" << std::endl;
+           b_plus_tree.insert( num_result_temp ,SSTR(numero_de_items));
            numero_de_items++;
+           //cout << numero_de_items << std::endl;
        }
      }
      numero_de_linhas++;
 
    }
+
+   printf("Time taken criando arvore: %.4fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
+
 
    n_trans = numero_de_linhas;
    n_items = numero_de_items;
@@ -140,69 +169,144 @@ int main(int argc, char** argv) {
 
    int** matrix = new int*[numero_de_linhas];
    for(int i = 0; i < numero_de_linhas; ++i) matrix[i] = new int[numero_de_items];
+   for (int q=0; q<n_trans;q++) {
+      for (int p=0; p<n_items; p++) {
+        matrix[q][p] = 0;
+      }
+    }
+
 
    i = 0;
-   cout << "fazendo a matrix " << endl;
+
+   cout << "fazendo a matriz " << endl;
+   clock_t tstart_matriz = clock();
+
+   getline(fin,str);
    while(getline(fin,str))
    {
-
+       //cout << numero_de_items << " " << numero_de_linhas << " " << "TESTE :" << i << " " << str << std::endl;
        str_vector = explode(",",str);
+       //cout <<  str_vector[0];
        for(k = 0;k < str_vector.size();k++)
        {
-         b_plus_tree.find(str_vector[k],&resultado_do_find);
+         //cout<<k<< " " << str_vector[k] <<std::endl;
+
+         //ss << k;
+         //cout << ss.str() << std::endl;
+         //num_result_temp = boost::lexical_cast<std::string>(k) + "_" + str_vector[k] ;
+         sprintf(num_result_temp_char,"%d",k);
+
+
+         //cout << num_result_temp<< std::endl;
+         //ss.str("");
+         //ss.clear();
+         num_result_temp = num_result_temp_char;
+         num_result_temp += "_";
+         num_result_temp += str_vector[k];
+         //cout << num_result_temp + "_" + str_vector[k] << std::endl;
+         //sprintf(num_result_temp_char,"");
+         //cout << "vou buscar "<< num_result_temp + "_" + str_vector[k] << std::endl;
+         //cout<<k<<std::endl;
+
+         b_plus_tree.find(num_result_temp,&resultado_do_find);
+         //cout << resultado_do_find_int;
          resultado_do_find_int = atoi(resultado_do_find.c_str());
          //cout << "K = " << k  << " " << str_vector[k] << " " << resultado_do_find_int << endl;
-         for(j = 0; j <= numero_de_items;j++)
+         for(j = 0; j < numero_de_items;j++)
          {
-
+           //cout << resultado_do_find_int << " " << k <<  " " << i << " " << j << std::endl;
            if(j == resultado_do_find_int) {
-             names[resultado_do_find_int] = new string(str_vector[k]);
-             matrix[i][j] = true;
+
+             names[resultado_do_find_int] = new string( num_result_temp);
+             matrix[i][j] = 1;
+             //cout << " " << " Ok " << std::endl;
            }
-           else matrix[i][j] = false;
+           else if(matrix[i][j] != 1) matrix[i][j] = 0;
+           //else if(matrix[i][j] == true) cout << "teste" << std::endl;
          }
        }
+
+       /*for(j=0;j<= numero_de_items;j++)
+       {
+         cout<<matrix[i][j]<< " ";
+       }
+       cout << std::endl;*/
        i++;
+
    }
-   std::cout << "Found items named "<<std::endl;
+
+   printf("Time taken matriz: %.4fs\n", (double)(clock() - tstart_matriz)/CLOCKS_PER_SEC);
+
+   /*std::cout << "Found " << n_items << " items named "<<std::endl;
    for (int i=0;i<n_items;i++) {
+      std::cout<< *names[i] << std::endl;
+      //cout<< i << " "  << *names[i]<<std::endl;
+   }*/
 
-    //  std::cout<< i << " "  << *names[i]<<std::endl;
-   }
-
+   /*for (int q=0; q<n_trans;q++) {
+      for (int p=0; p<n_items; p++) {
+        cout << matrix[q][p] << " ";
+      }
+      cout << std::endl;
+   }*/
 
    //  Set input data
+   cout << "alocando a matrix" << std::endl;
    for (int q=0; q<n_trans;q++) {
       for (int p=0; p<n_items; p++) {
          //int tmp;
          //fin>>tmp;
-         if (matrix[q][p] == true)
+         //cout << q << " " << p << std::endl;
+         if (matrix[q][p] == true || matrix[q][p] == 1)
          {
            h_data->set(q,p,true);
          }
-         else h_data->set(q,p,false);
+         else {
+           h_data->set(q,p,false);
+         }
          //if (tmp>0) (*data)(q,p) = true;
          //else (*data)(q,p) = false;
       }
    }
+
+   cout << "matrix alocada" << std::endl;
+   clock_t tstart_cuda = clock();
    cudaMemcpy(data->data, h_data->data, sizeof(unsigned int)*h_data->real_c*h_data->r/32, cudaMemcpyHostToDevice);
+   printf("Time taken cuda: %.4fs\n", (double)(clock() - tstart_cuda)/CLOCKS_PER_SEC);
+
 
    int this_size=n_items;
    first_descriptions = (int*)malloc(sizeof(int)*n_items);
    this_descriptions = (int*)malloc(sizeof(int)); //allocate something for freeing
    int last_size=1;
+   //first_data = new flexarray_bool(n_trans, 1, true);
    first_data = new flexarray_bool(n_trans, 1, true);
+
+
    for (int p=0; p<n_items; p++) {
       first_descriptions[p] = p;
    }
    for (int q=0; q<n_trans; q++) {
       h_data->set(q,0,true);
+
    }
+
+
+   //tstart_cuda = clock();
    cudaMemcpy(first_data->data, h_data->data, sizeof(unsigned int)*first_data->real_c*first_data->r/32, cudaMemcpyHostToDevice);
+   //printf("Time taken cuda: %.4fs\n", (double)(clock() - tstart_cuda)/CLOCKS_PER_SEC);
+
+   //display_flexarray(first_data);
+
    delete(h_data);
 
    cudaStreamCreate(&myStream);
    cudaStreamCreate(&debugStream);
+
+   for (int q=0; q<n_trans; q++) {
+      first_data->set(q,0,true);
+
+   }
 
    for (int depth=1;depth<MAX_DEPTH;depth++) {
       std::cout << std::endl << "    ****  DEPTH = " << depth << "  **** " << std::endl;
@@ -219,17 +323,22 @@ int main(int argc, char** argv) {
       freqpattern[depth] = (int*)malloc(sizeof(int)*this_size);
 #endif
       newdata = new flexarray_bool(n_trans, this_size, true);
+
       two_list_freq_count(data, first_data, freqpattern[depth], newdata);
       cudaCheckError();
       debugMark<1><<<1,1,0,debugStream>>>();
       this_size = description_outer(this_descriptions, last_size, depth-1, first_descriptions, n_items, 1,
                                     next_descriptions);
       debugMark<2><<<1,1,0,debugStream>>>();
+
+
 #if defined(__DEBUG__)
 #if defined(__CUDA__)
       new_freq = (int*) realloc(freq, sizeof(int)*this_size);
       freq = new_freq;
+      tstart_cuda = clock();
       cudaMemcpy(freq, freqpattern[depth], sizeof(int)*this_size, cudaMemcpyDeviceToHost);
+      printf("Time taken cuda: %.2fs\n", (double)(clock() - tstart_cuda)/CLOCKS_PER_SEC);
       cudaCheckError();
 #else
       freq = freqpattern[depth];
@@ -290,12 +399,13 @@ int main(int argc, char** argv) {
       freq = freqpattern[depth];
 #endif
       for (int p=0;p<this_size;p++) {
-         //if (freqpattern[depth][p]>=min_support) {
+         //std::cout<<min_support<<std::endl;
+         if (freq[p]>min_support) {
             std::cout<<"{";
             for (int d=0; d<depth; d++) std::cout<< *names[next_descriptions[p*depth+d]] << ", ";
             std::cout<< "},";
             std::cout<<freq[p]<<std::endl;
-         //}
+         }
       }
 #if defined(__CUDA__)
    cudaFree(freqpattern[depth]-last_size*n_items+this_size);
@@ -320,6 +430,7 @@ int main(int argc, char** argv) {
       display_flexarray(first_data);
 #endif
    }
+   printf("Time taken: %.2fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
    free(this_descriptions);
    free(next_descriptions);
 #if defined(__CUDA__)
